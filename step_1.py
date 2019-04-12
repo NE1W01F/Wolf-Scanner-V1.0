@@ -40,7 +40,6 @@ def main(site):
     links = openurl(site)
     while True:
         for url in links:
-            print url
             if len(url) == 0:
                 print(colur_red + "[-] No URLs Found" + colur_end)
                 break
